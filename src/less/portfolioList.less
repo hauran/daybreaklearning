@@ -1,0 +1,60 @@
+#portfolioList{
+  ul {
+    li {
+      border: 1px solid #DDD;
+      border-radius: 10px;
+      width: 300px;
+      .icon {
+        height: 180px;
+        width: 100%;
+        border-bottom: 1px solid #DDD;
+        -webkit-border-top-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        -moz-border-radius-topleft: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+      .description{
+        width: 100%;
+        padding: 10px;
+        font-size: 0.8em;
+        overflow: hidden;
+        color: #666;
+      }
+      h4 {
+        color: initial;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    ul li {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    ul li {
+      margin: 0 15px 15px 0;
+      .description{
+        height: 190px;
+      }
+    }
+  }
+}
