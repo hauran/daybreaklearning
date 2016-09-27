@@ -1,18 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router'
+
 import '../less/nav.less'
 
 const ListItem = (i) => {
   const iconStyle={
-    backgroundImage:`url(${i.icon})`
+    backgroundImage:`url(${i.item.icon})`
   }
+  const details = `/portfolio/${i.item.slug}`
   return (
-    <div>
+    <Link to={details}>
       <div className='icon' style={iconStyle}></div>
       <div className='description'>
 				<h4>{i.item.title}</h4>
 				{i.item.description}
 			</div>
-    </div>
+    </Link>
   )
 }
 

@@ -6,7 +6,6 @@ import '../less/nav.less'
 const Nav = () => {
   return (
     <div id="nav">
-      <h3 className="title"><Link to='/'>Aliza Aber</Link></h3>
       <ul>
         <li><Link to="/about">About Me</Link></li>
         <li><Link to="/portfolio">Portfolio</Link></li>

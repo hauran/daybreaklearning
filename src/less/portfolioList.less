@@ -1,13 +1,16 @@
+@import "mixins.less";
+
 #portfolioList{
   ul {
+
     li {
-      border: 1px solid #DDD;
+      border: 2px solid #DDD;
       border-radius: 10px;
-      width: 300px;
+      margin:10px;
       .icon {
         height: 180px;
         width: 100%;
-        border-bottom: 1px solid #DDD;
+        border-bottom: 2px solid #DDD;
         -webkit-border-top-right-radius: 10px;
         -webkit-border-bottom-right-radius: 0;
         -webkit-border-bottom-left-radius: 0;
@@ -44,16 +47,26 @@
   }
 
   @media only screen and (max-width: 767px) {
-    ul li {
-      margin: 0 0 20px 0;
+    ul {
+      li {
+        margin: initial;
+        margin-bottom: 25px;
+      }
     }
   }
 
   @media only screen and (min-width: 768px) {
-    ul li {
-      margin: 0 15px 15px 0;
-      .description{
-        height: 190px;
+    ul {
+      .displayFlex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      .alignCenter;
+      li {
+        width: calc(~"100% * (1/2) - 20px");
+        .description{
+          height: 190px;
+        }
       }
     }
   }

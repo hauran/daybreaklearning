@@ -1,0 +1,33 @@
+@import "./mixins.less";
+
+#about {
+  .displayFlex;
+  img {
+    width: 100%;
+    max-width: 400px;
+  }
+  pre {
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #fff;
+    word-break: normal;
+    white-space: inherit;
+    font-family: inherit;
+  }
+  @media only screen and (max-width: 767px) {
+    .flexDirection(column);
+    .bio {
+      margin-top:20px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .flexDirection(row);
+    .bio {
+      margin-left:20px;
+    }
+  }
+}

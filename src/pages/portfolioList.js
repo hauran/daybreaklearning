@@ -4,10 +4,6 @@ import ListItem from '../components/listItem'
 
 const portfolio = require('../data/portfolios')
 
-const brainzy = require('../img/portfolio/brainzy/icon.png')
-const nme = require('../img/portfolio/nme/icon.jpg')
-const icons = [brainzy, nme]
-
 import '../less/portfolioList.less'
 
 const Portfolio = () => {
@@ -20,7 +16,7 @@ const Portfolio = () => {
           portfolio.map((p,i) => {
             return (
                 <li key={i}>
-                  <ListItem icon={icons[i]} item={p}></ListItem>
+                  <ListItem item={p}></ListItem>
                 </li>
             )
           })

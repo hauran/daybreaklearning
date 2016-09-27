@@ -15,7 +15,7 @@ module.exports = [
     description: "When Education.com,  the leading source of online worksheets, embarked on game development, they stepped into a foreign terrain without a clear path. I helped them find their way by identifying market needs, defining a unique product vision and outlining a clear curricular game path.",
     challenge: "The competitive market for online educational content is already formidable and increasing dramatically. How can I help the company use their limited resources and time to develop a truly distinct product?",
     strategy: "When I began the project, the internal production team already had amassed considerable content and curricular material. But the emerging material lacked a clear framework and the product vision was hazy and vague.  Before launching into design, I helped the team articulate a compelling strategy and product voice that set them apart in the crowded market.  I presented this strategy with detailed product requirements that were hammered out with the team and became the foundation of the product's design.",
-    icon: "img/portfolio/brainzy/icon.png",
+    icon: "../img/portfolio/brainzy/icon.png",
     images: ["../img/portfolio/brainzy/screenshot.png"],
   },
   {
@@ -33,10 +33,57 @@ module.exports = [
     description:"Millions of students participated in the National Student Mock Election, the country's largest civic engagement project. I produced its new interactive site, with innovative resources for students and educators.",
     challenge:"How do I translate enthusiasm and participation in the Mock Election into continued civic engagement throughout the year? Once students vote and see the election results, how do I keep them coming back to the site to learn and voice their opinion about important issues?",
     strategy:"I created a Pinterest-like space where classrooms share their photos and stories about their Mock Election, thus channeling enthusiasm from the election past into the current conversation. I also developed content for a student projects page that keeps students engaged in political thought after the election. Activities such as \"Find Jeremy a Job\" and \"No Issue Stands Alone\" inspire students to think deeply about nuanced topics and brainstorm their own solutions.",
-    icon:"./img/portfolio/nme/icon.jpg",
+    icon:"../img/portfolio/nme/icon.jpg",
     images:[
       "../img/portfolio/nme/noIssueStandsAlone.png",
       "../img/portfolio/nme/issues.png"
+    ]
+  },
+  {
+    title:"WeGiveBooks.org",
+    slug:"we_give_books",
+    role:{
+      title:"User Researcher & Champion",
+      tasks:[
+        "Collaborated with engineering and marketing departments to define user experience goals and metrics.",
+        "Spearheaded user research project to inform product development goals.",
+        "Collected and analyzed user behavior through surveys and interviews.",
+        "Created user personas and use case scenarios.",
+        "Translated findings into clear recommendations for product changes to team."
+      ]
+    },
+    description:"This online reading platform needed to be repositioned for its main users. I spearheaded research with its target audience to deliver design and functionality recommendations.",
+    challenge:"Pearson Foundation wasn't sure about how to invest in the site to prepare for the upcoming Read for the Record event that would bring peak traffic to the site. I realized that while WeGiveBooks.org had an amazing product to share– children's books for reading and exploring for free online – the site design and features were being driven by marketing rather than user needs. How can I show stakeholders that listening and responding to users is the best way to increase the site's popularity, traffic and long term success?",
+    strategy:"I spearheaded a qualitative user study to understand the target users motivations, use patterns and current limitations. I showed stakeholders how simple improvements such as a better search function and a more intuitive reading interface would increase user engagement and retention. By timing these improvements with the high-traffic event, we attracted new users and developed a loyal base.",
+    icon:"../img/portfolio/wgb/icon.jpg",
+    images:[
+      "../img/portfolio/wgb/logo.jpg",
+      "../img/portfolio/wgb/books.png"
+    ],
+  },
+  {
+    title:"Little Leaps Interactive DVD",
+    slug:"little_leaps",
+    role:{
+      title:"Producer",
+      tasks:[
+        "Led brainstorms from early concept through scripting.",
+        "Wrote screenplay and functional specs for editorial sequencing.",
+        "Presented concepts and demos to Nickelodeon and LeapFrog stakeholders.",
+        "Managed cross-functional development team including animators, developers, testers and audio leads.",
+        "Coached Nickelodeon voice talent from The Backyardigans show",
+        "Conducted user testing and analysis."
+      ]
+    },
+    description:"Toddlers learn about their bodies and movement in this award-winning interactive Backyardigans adventure. I scripted and produced over 45 minutes of original animation intermixed with photography and video footage.",
+    challenge:"Toddlers were expected to interact with the DVD by pushing buttons on LeapFrog's new Little Leaps console, but users this young can't be expected to follow verbal cues. I wanted to deliver instructions that were clear and intuitive, but didn't break out of the fantasy world of The Backyardigans.",
+    strategy:"The look of the console reminded me of the dashboard of an airplane. So I embarked upon an airplane theme for the story plot, enabling an onscreen representation identical to the console in front of the child. Our animators created a reusable sequence from the viewpoint of the pilots asking \"you,\" the user, to help the plane land or takeoff by moving the joystick or pushing a button. User testing showed that these visual cues motivated toddlers to interact with the console and become active participants in the adventure.",
+    icon:"../img/portfolio/llid/icon.png",
+    images:[
+      "../img/portfolio/llid/dvd.png"
+    ],
+    videos:[
+      '<iframe src="http://player.vimeo.com/video/59928243?title=0&amp;byline=0&amp;portrait=0" width="480" height="272" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
     ]
   }
 ]
