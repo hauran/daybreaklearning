@@ -14,6 +14,10 @@ class Details extends React.Component {
       item: this.findItemBySlug(this.props.params.slug)
     }
   }
+  
+  componentDidMount(){
+    window.scrollTo(0,0)
+  }
 
   findItemBySlug(slug){
     return _.find(portfolio, { 'slug': slug});

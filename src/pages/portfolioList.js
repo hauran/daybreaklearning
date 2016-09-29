@@ -6,25 +6,36 @@ const portfolio = require('../data/portfolios')
 
 import '../less/portfolioList.less'
 
-const Portfolio = () => {
-  return (
-    <div className='page'>
-      <Nav></Nav>
-      <div id='portfolioList'>
-        <ul>
-        {
-          portfolio.map((p,i) => {
-            return (
-                <li key={i}>
-                  <ListItem item={p}></ListItem>
-                </li>
-            )
-          })
-        }
-        </ul>
+class PortfolioList extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  componentDidMount(){
+    window.scrollTo(0,0)
+  }
+
+  render(){
+    return (
+      <div className='page'>
+        <Nav></Nav>
+        <div id='portfolioList'>
+          <ul>
+          {
+            portfolio.map((p,i) => {
+              return (
+                  <li key={i}>
+                    <ListItem item={p}></ListItem>
+                  </li>
+              )
+            })
+          }
+          </ul>
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
-export default Portfolio
+export default PortfolioList

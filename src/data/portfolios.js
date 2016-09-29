@@ -85,5 +85,52 @@ module.exports = [
     videos:[
       '<iframe src="http://player.vimeo.com/video/59928243?title=0&amp;byline=0&amp;portrait=0" width="480" height="272" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
     ]
+  },
+  {
+    title:"Leapfrog Interactive Books",
+    slug:"leapfrog_interactive_books",
+    role:{
+      title:"Content Designer, CoProducer",
+      tasks:[
+        "Researched and applied knowledge of learning stages for children ages 0-8.",
+        "Developed concepts, scripts and functional specifications.",
+        "Defined scope, schedule and budget for entire production cycle.",
+        "Directed art, audio, software, editing and QA teams.",
+        "Planned and directed focus groups and solo testing sessions with users.",
+        "Presented product demos to executives and character licensors."
+      ]
+    },
+    text:"Pooh Loves You, Guess How Much I Love You, Mr Brown Can Moo, A to Z Adventure, Animal Dance, Easy Reader Phonics Set One and Pirates!",
+    description:"LeapFrog's interactive books have revolutionized early reading and literacy. Each book's content is brought to life with dialogue, songs, games and personalized learning tracks. I designed the content and gameplay while managing the production of nine notable books, many of which received educational awards and were bestsellers in their category.",
+    challenge:"My over-arching challenge, through all book titles, was to use technology in a way that enhanced children's imaginations rather than restricted them to a scripted experience.",
+    strategy:"I went beyond the user sessions required by LeapFrog and met with young users as much as schedule and budget would allow. In testing, I never told kids what to do, but rather learned from all the unexpected ways they would interact with the prototypes. As a result, my books were known for their engaging content and intuitive play patterns. Awards include the Parents' Choice Award, KTVU's Best of the Rest Education Toy Award and the National Parenting Center's Seal of Approval.",
+    icon:"../img/portfolio/leapfrog/icon.png",
+    images:[
+      "../img/portfolio/leapfrog/book.png",
+      "../img/portfolio/leapfrog/moo.png"
+    ]
+  },
+  {
+    title:"Learn and Groove Bilingual Radio",
+    slug:"learn_and_groove",
+    role:{
+      title:"Content Designer, Producer",
+      tasks:[
+        "Developed product goals, based upon market and curriculum research.",
+        "Led content brainstorms and drafted concept document.",
+        "Presented evolving product to LeapFrog stakeholders.",
+        "Wrote design documents with English and Spanish audio.",
+        "Managed cross-functional development team, including audio, art, engineering and QA.",
+        "Coached voice talent in recording sessions of 26 songs.",
+        "Conducted user testing and analysis."
+      ]
+    },
+    description:"This English/Spanish learning radio teaches toddlers over 50 first words through interactive prompts, riddles, songs and music. I designed and managed the production of this best-selling toy, which has been translated into three languages for a global audience.",
+    challenge:"There was an immediate need to boost the LeapFrog 2009 toy line despite a dwindling budget and timeline. I was asked to revamp an existing product with bilingual content to teach first words to toddlers. To succeed, we needed a product that felt like a truly new experience rather than a rehash of old material.",
+    strategy:"I spoke with education experts on how to foster bilingual word development and reviewed the current consumer products teaching first words. I learned that words are best taught in their environmental context and reinforced through multisensory exploration. Since no product on the market was doing this, I designed the radio with environmental pages, catchy songs, clickable buttons and engaging lights that captured toddlers' eyes, ears and hands. The best part? This redesign was really a re-skin of a previously made LeapFrog toy, keeping costs low.",
+    icon:"../img/portfolio/learnGroove/icon.png",
+    images:[
+      "../img/portfolio/learnGroove/radio.png"
+    ]
   }
 ]

@@ -14,7 +14,14 @@
       color:#333;
     }
   }
+
   ul {
+
+      width:95vw;
+    .displayFlex;
+    .alignCenter;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
     li {
       padding: 1.2em 0;
       a {
@@ -39,24 +46,8 @@
     position: fixed;
     top:0;
     left:0;
-    ul {
-      width:95vw;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-direction: row;
-      flex-direction: row;
-      -webkit-justify-content: flex-end;
-      justify-content: flex-end;
-      li:last-of-type {
-        display:none;
-      }
-    }
   }
   @media only screen and (min-width: 768px) {
 
-     ul {
-      .displayFlex;
-      .alignCenter;
-     }
   }
 }
