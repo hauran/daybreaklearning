@@ -9,7 +9,6 @@
     .displayFlex;
     .justifyCenter;
     .container {
-      width: 100vw;
       max-width: 800px;
       z-index: 1;
     }
@@ -38,18 +37,19 @@
   #nav {
     z-index: 1;
     background-color: initial;
-
     ul {
       li {
         a {
           color:#fff;
           &:hover {
-            color:#333;
+            color:#fff;
+            background-color:rgba(0,0,0,0.1);
           }
         }
       }
     }
   }
+
 
   h1 {
     margin:0.4em 0;
@@ -74,7 +74,7 @@
   }
 
   .background {
-    position: absolute;;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -87,7 +87,7 @@
     .transition(0.7s);
     background: rgba(3,3,3,0.5);
     opacity: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
