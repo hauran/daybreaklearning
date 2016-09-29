@@ -14,7 +14,7 @@ class Details extends React.Component {
       item: this.findItemBySlug(this.props.params.slug)
     }
   }
-  
+
   componentDidMount(){
     window.scrollTo(0,0)
   }
@@ -29,7 +29,7 @@ class Details extends React.Component {
     let half = classNames({'half':i.images.length > 1})
     return (
       <div className='page'>
-        <Nav></Nav>
+      <Nav active='Portfolio'></Nav>
         <div id='details'>
           <h4>{i.title}</h4>
           <div className='description'>{i.description}</div>

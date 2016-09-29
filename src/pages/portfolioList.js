@@ -13,13 +13,15 @@ class PortfolioList extends React.Component {
   }
 
   componentDidMount(){
-    window.scrollTo(0,0)
+    setTimeout(() => {
+      window.scrollTo(0,0)
+    },1)
   }
 
   render(){
     return (
       <div className='page'>
-        <Nav></Nav>
+        <Nav active='Portfolio'></Nav>
         <div id='portfolioList'>
           <ul>
           {

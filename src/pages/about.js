@@ -6,7 +6,7 @@ import '../less/about.less'
 const About = () => {
   return (
     <div className='page'>
-      <Nav></Nav>
+      <Nav active='About'></Nav>
       <div id='about'>
         <img src='/img/about.png' alt='smile'></img>
         <div className='bio'>

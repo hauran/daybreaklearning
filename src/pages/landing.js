@@ -36,7 +36,7 @@ class Landing extends React.Component {
       <div id='main' className='page'>
         <div className='background'></div>
         <div className={overlay}></div>
-        <div className='containter'>
+        <div className='container'>
           <div className={nav}>
             <Nav></Nav>
           </div>
