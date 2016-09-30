@@ -46,10 +46,10 @@ class Contact extends React.Component {
   send(e){
     this.setState({hidebutton:true})
     if(this.checkErrors()){
-      // fetch(lambda_email, {
-      //   method: 'POST',
-      //   body: JSON.stringify(this.state)
-      // })
+      fetch(lambda_email, {
+        method: 'POST',
+        body: JSON.stringify(this.state)
+      })
       this.setState({sent:true})
     }
     else {
@@ -82,7 +82,7 @@ class Contact extends React.Component {
   			  	<input type='email' id='email' name='email' className={email} placeholder='Email' onChange={(e) => {this.handleChange(e)}}></input>
       			<textarea rows='7' id='text' name='text' className={text} onChange={(e) => {this.handleChange(e)}}></textarea>
       			<button className={button} onClick={(e) => {this.send(e)}}><i className='icon-heart'></i> Send</button>
-    				<div className={alert}>
+    				    <div className={alert}>
     				  Thanks for the email!
     				</div>
       		</form>
