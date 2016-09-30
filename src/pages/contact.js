@@ -1,6 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 import EmailIcon from 'react-icons/io/ios-email-outline'
+import 'whatwg-fetch'
 
 import Nav from '../components/nav'
 import '../less/contact.less'
@@ -17,7 +18,7 @@ class Contact extends React.Component {
   checkErrors(){
     let email = this.state.email
     let name = this.state.name
-    let body = this.state.body
+    let text = this.state.text
 
     let noError = true
     let e = {}
@@ -30,8 +31,8 @@ class Contact extends React.Component {
       e.email = true
       noError = false
     }
-    if(!body || !body.length) {
-      e.body = true
+    if(!text || !text.length) {
+      e.text = true
       noError = false
     }
 
@@ -40,8 +41,13 @@ class Contact extends React.Component {
   }
 
   send(e){
-    if(this.checkErrors())
+    if(this.checkErrors()){
+      fetch('https://bx29ntrjge.execute-api.us-east-1.amazonaws.com/prod/sendEmail', {
+        method: 'POST',
+        body: JSON.stringify(this.state)
+      })
       this.setState({sent:true})
+    }
     e.preventDefault()
   }
 
@@ -55,7 +61,7 @@ class Contact extends React.Component {
     let alert = classNames('alert', {show:this.state.sent})
     let email = classNames({error:this.state.errors.email})
     let name = classNames({error:this.state.errors.name})
-    let body = classNames({error:this.state.errors.body})
+    let text = classNames({error:this.state.errors.text})
 
     return (
       <div className='page' id='contact'>
@@ -70,7 +76,7 @@ class Contact extends React.Component {
       			<h3>Drop me an email</h3>
   			  	<input type='text' id='name' name='name' className={name} placeholder='Name' onChange={(e) => {this.handleChange(e)}}  ></input>
   			  	<input type='email' id='email' name='email' className={email} placeholder='Email' onChange={(e) => {this.handleChange(e)}}></input>
-      			<textarea rows='7' id='body' name='body' className={body} onChange={(e) => {this.handleChange(e)}}></textarea>
+      			<textarea rows='7' id='text' name='text' className={text} onChange={(e) => {this.handleChange(e)}}></textarea>
       			<button className='btn btn-primary' onClick={(e) => {this.send(e)}}><i className='icon-heart'></i> Send</button>
       		</form>
       		<br/>
