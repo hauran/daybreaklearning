@@ -13,6 +13,7 @@ class Contact extends React.Component {
     super(props)
     this.state = {
       sent:false,
+      hidebutton:false,
       errors:{}
     }
   }
@@ -43,12 +44,16 @@ class Contact extends React.Component {
   }
 
   send(e){
+    this.setState({hidebutton:true})
     if(this.checkErrors()){
-      fetch(lambda_email, {
-        method: 'POST',
-        body: JSON.stringify(this.state)
-      })
+      // fetch(lambda_email, {
+      //   method: 'POST',
+      //   body: JSON.stringify(this.state)
+      // })
       this.setState({sent:true})
+    }
+    else {
+      this.setState({hidebutton:false})
     }
     e.preventDefault()
   }
@@ -64,7 +69,7 @@ class Contact extends React.Component {
     let email = classNames({error:this.state.errors.email})
     let name = classNames({error:this.state.errors.name})
     let text = classNames({error:this.state.errors.text})
-
+    let button = classNames({hidebutton:this.state.hidebutton})
     return (
       <div className='page' id='contact'>
         <Nav active='Contact'></Nav>
@@ -72,14 +77,14 @@ class Contact extends React.Component {
           <h4><EmailIcon size={35} className='icon'/><a href='mailto:alizapai@gmail.com' target='_blank'>alizapai@gmail.com</a></h4>
       		<h5>- or  -</h5>
       		<form>
-    				<div className={alert}>
-    				  Thanks for the email!
-    				</div>
       			<h3>Drop me an email</h3>
   			  	<input type='text' id='name' name='name' className={name} placeholder='Name' onChange={(e) => {this.handleChange(e)}}  ></input>
   			  	<input type='email' id='email' name='email' className={email} placeholder='Email' onChange={(e) => {this.handleChange(e)}}></input>
       			<textarea rows='7' id='text' name='text' className={text} onChange={(e) => {this.handleChange(e)}}></textarea>
-      			<button className='btn btn-primary' onClick={(e) => {this.send(e)}}><i className='icon-heart'></i> Send</button>
+      			<button className={button} onClick={(e) => {this.send(e)}}><i className='icon-heart'></i> Send</button>
+    				<div className={alert}>
+    				  Thanks for the email!
+    				</div>
       		</form>
       		<br/>
 

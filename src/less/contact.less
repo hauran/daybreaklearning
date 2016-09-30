@@ -4,7 +4,7 @@
     .displayFlex;
     .flexDirection(column);
     margin-bottom: 0;
-    h4 {
+    h4,h5 {
       margin-bottom: 10px;
     }
     h3 {
@@ -38,10 +38,15 @@
         font-size: 0.8em;
         opacity: 0;
         .transform(translateY(-10px));
-        .transition();
+        .transition(0.5s);
+        transition-delay: 0.5s;
+        -webkit-transition-delay: 0.5s;
+        -moz-transition-delay: 0.5s;
+        -o-transition-delay: 0.5s;
+        -ms-transition-delay: 0.5s;
         &.show {
           opacity: 1;
-          .transform(translateY(0px));
+          .transform(translateY(-20px));
         }
       }
       .help-inline {
@@ -61,8 +66,16 @@
         color: white;
         background-color: #2ecc71;
         cursor: pointer;
+        .transition(0.5s);
+        opacity: 1;
+        .transform(translateY(0px));
         &:hover, &:active {
           background-color: #27ae60;
+        }
+        &.hidebutton {
+          visibility: hidden;
+          opacity: 0;
+          .transform(translateY(-5px));
         }
       }
     }
