@@ -1,5 +1,28 @@
 module.exports = [
   {
+    title: "Premier Business Communication Program",
+    slug: "decker",
+    role: {
+      title: "External Project Director",
+      tasks: [
+        "Built learning strategy and interactive concept for launching the in-person Communicate to Influence seminar in a video-led interactive web course.",
+        "Collaborated closely with Decker team in designing and scripting seven module course with over 100 minutes of video, custom interactions and rich content.",
+        "Built and led team with engineering, film, visual design, UX design subcontractors and partners.",
+        "Directed product from initial ideation through full production using an agile-sprint-based methodology adapted for client’s culture and processes."
+      ]
+    },
+    description: "An online course that fuses the teachings of a leading global communications firm with customized learning interactions and innovative technology in webcam integration, video streaming and recording-analysis. The result is a learning experience that brings transformative behavioral results to self-paced, independent learners worldwide.",
+    challenge: "How to best teach something as deeply-interpersonal as communications skills for individual learners online?  Can people really transform their interpersonal skills in an essentially solo experience?",
+    strategy: "After taking the course and speaking to other learners, I realized the unique challenge was also a unique opportunity. Often, learners are so parlysed to speak publicly that it’s hard to really engage with other people. The online course provides a classroom like experience with compelling teachers and engaged listeners and users are actually recording themselves in front of mock-audiences. This always learners to practice in a highly-realistic simulated environment, so they can gain comfort in a safe space. The activities include self-analytical tools like vocal variety analysis, recording-flagging and other mechanisms for gaining essential feedback and insights into one’s own habits.  In Beta testing to date, learners found the course refreshingly-unique and highly compelling. It transformed the company of  Decker Communications offerings to support modern learners while also keeping to the integrity of their classroom-built practices and philosophy.",
+    icon: "../img/portfolio/decker/icon.png",
+    images: [
+      "../img/portfolio/decker/decker01.png",
+      "../img/portfolio/decker/decker02.png",
+      "../img/portfolio/decker/decker03.png",
+      "../img/portfolio/decker/decker04.png"
+    ]
+  },
+  {
     title: "Brainzy: The new learning game system from education.com",
     slug: "brainzy",
     role: {

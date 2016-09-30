@@ -6,6 +6,8 @@ import 'whatwg-fetch'
 import Nav from '../components/nav'
 import '../less/contact.less'
 
+const lambda_email = 'https://bx29ntrjge.execute-api.us-east-1.amazonaws.com/prod/sendEmail'
+
 class Contact extends React.Component {
   constructor(props) {
     super(props)
@@ -42,7 +44,7 @@ class Contact extends React.Component {
 
   send(e){
     if(this.checkErrors()){
-      fetch('https://bx29ntrjge.execute-api.us-east-1.amazonaws.com/prod/sendEmail', {
+      fetch(lambda_email, {
         method: 'POST',
         body: JSON.stringify(this.state)
       })
