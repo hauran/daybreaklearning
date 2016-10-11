@@ -22,6 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "push": "react-scripts build; s3-cli sync ~/gitrepo/daybreaklearning/build/ s3://daybreak-learning/;"
+    "push": "react-scripts build; s3-cli sync ~/gitrepo/daybreaklearning/build/ s3://daybreaklearningcompany.com/;"
   }
 }
