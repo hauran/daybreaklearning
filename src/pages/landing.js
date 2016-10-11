@@ -11,7 +11,8 @@ class Landing extends React.Component {
     this.state = {
       overlay:false,
       nav:false,
-      content:false
+      content:false,
+      logo:false
     }
   }
 
@@ -25,20 +26,22 @@ class Landing extends React.Component {
     setTimeout(() => {
       this.setState({content:true})
     },2000)
+    setTimeout(() => {
+      this.setState({logo:true})
+    },2500)
   }
 
   render() {
     let overlay = classNames('overlay', {show:this.state.overlay})
     let nav = classNames('nav', {show:this.state.nav})
     let content = classNames('content', {show:this.state.content})
-
     return (
       <div id='main' className='page'>
         <div className='background'></div>
         <div className={overlay}></div>
         <div className='container'>
           <div className={nav}>
-            <Nav></Nav>
+            <Nav logo={this.state.logo}></Nav>
           </div>
           <div className={content}>
             <h1>Daybreak Learning</h1>
@@ -47,12 +50,10 @@ class Landing extends React.Component {
             <div className='well'>
               <h4>Expertise:</h4>
               <ul>
-                <li>Children’s Product Ideation and Development</li>
-                <li>Interaction and Game Design</li>
-                <li>Content Writing and Character Development</li>
-                <li>Product Management from Conception through Delivery</li>
-                <li>Multidisciplinary Team Collaboration and Leadership</li>
-                <li>User Research, Testing and Analysis</li>
+                <li>EdTech Product Strategy and Design</li>
+                <li>Multimedia/Video and Instructional Content Creation</li>
+                <li>Full Stack Custom Development for Web and Mobile</li>
+                <li>Packaging and Consulting for LMS Integration </li>
               </ul>
             </div>
           </div>

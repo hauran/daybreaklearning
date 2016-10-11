@@ -72,9 +72,9 @@ class Contact extends React.Component {
     let button = classNames({hidebutton:this.state.hidebutton})
     return (
       <div className='page' id='contact'>
-        <Nav active='Contact'></Nav>
+        <Nav active='Contact' logo={true}></Nav>
         <div className='well'>
-          <h4><EmailIcon size={35} className='icon'/><a href='mailto:alizapai@gmail.com' target='_blank'>alizapai@gmail.com</a></h4>
+          <h4><EmailIcon size={35} className='icon'/><a href='mailto:aliza@daybreaklearningco.com' target='_blank'>aliza@daybreaklearningco.com</a></h4>
       		<h5>- or  -</h5>
       		<form>
       			<h3>Drop me an email</h3>

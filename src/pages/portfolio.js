@@ -29,7 +29,7 @@ class Details extends React.Component {
     let half = classNames({'half':i.images.length > 1})
     return (
       <div className='page'>
-      <Nav active='Portfolio'></Nav>
+        <Nav active='Portfolio' logo={true}></Nav>
         <div id='details'>
           <h4>{i.title}</h4>
           <div className='description'>{i.description}</div>

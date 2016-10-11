@@ -31,8 +31,18 @@ class Nav extends React.Component {
     _.each(links, (l) => {
       l.active = !!(this.props.active && (l.text === this.props.active))
     })
+    let logo = {backgroundImage:'url(/img/logo_light.png)'}
+    if(this.props.active)
+      logo = {backgroundImage:'url(/img/logo_dark.png)'}
+
+    let showLogo = classNames({show:this.props.logo})
     return (
       <div id="nav">
+        <ul className='logoContainer'>
+          <li className={showLogo}>
+            <Link to='/'><div className='logo' style={logo}></div></Link>
+          </li>
+        </ul>
         <ul>
           {
             links.map((l, i) => {

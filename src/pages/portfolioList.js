@@ -21,20 +21,25 @@ class PortfolioList extends React.Component {
   render(){
     return (
       <div className='page'>
-        <Nav active='Portfolio'></Nav>
-        <div id='portfolioList'>
-          <ul>
-          {
-            portfolio.map((p,i) => {
-              return (
-                  <li key={i}>
-                    <ListItem item={p}></ListItem>
-                  </li>
-              )
-            })
-          }
-          </ul>
-        </div>
+        <Nav active='Portfolio' logo={true}></Nav>
+          <div id='portfolioList'>
+            {this.props.active ?
+              <ul>
+              {
+                portfolio.map((p,i) => {
+                  return (
+                    <li key={i}>
+                      <ListItem item={p}></ListItem>
+                    </li>
+                  )
+                })
+              }
+              </ul>
+              :
+                <p>I’m excited to share my work with you. Please email me <a href='mailTo:aliza@daybreaklearningco.com' target='_blank'>aliza@daybreaklearningco.com</a> for the link to my portfolio!</p>
+            }
+          </div>
+
       </div>
     )
   }
