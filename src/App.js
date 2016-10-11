@@ -5,6 +5,7 @@ import Landing from './pages/landing'
 import About from './pages/about'
 import PortfolioList from './pages/portfolioList'
 import PortfolioCheck from './pages/portfolioCheck'
+import PortfolioOpen from './pages/portfolioOpen'
 import Portfolio from './pages/portfolio'
 import Contact from './pages/contact'
 
@@ -16,6 +17,7 @@ class App extends Component {
       <Router history={browserHistory}>
         <Route path="/" component={Landing}/>
         <Route path="about" component={About}/>
+        <Route path="friend" component={PortfolioOpen}/>
         <Route path="portfolioAccess/:code" component={PortfolioCheck}/>
         <Route path="portfolio" component={PortfolioList}/>
         <Route path="portfolio/:slug" component={Portfolio}/>
