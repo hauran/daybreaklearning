@@ -24,8 +24,25 @@
       margin-top:10px;
       line-height: 1.5em;
     }
+    &.clients {
+      margin-left:40px;
+    }
   }
-
+  .spotlights {
+    margin-top:2em;
+    .spotlight {
+      border-top:1px solid rgba(0,0,0,0.08);
+      margin-top:3em;
+      padding-top:1em;
+      h5 {
+        color:#333333;
+        margin-bottom: 10px;
+      }
+      img {
+        margin-top:1em;
+      }
+    }
+  }
   hr {
     margin: 20px 0;
     border: 0;
@@ -37,7 +54,7 @@
   }
 
   @media only screen and (max-width: 767px) {
-    .images {
+    .images, .spotlight {
       img {
         margin:10px 0;
         width:100%;
@@ -47,7 +64,7 @@
   }
 
   @media only screen and (min-width: 768px) {
-    .images {
+    .images, .spotlight {
       text-align: center;
       img {
         margin:0 10px;
@@ -56,6 +73,9 @@
           width: calc(~"100% * (1/2) - 20px");
         }
       }
+    }
+    .spotlight {
+      text-align: initial;
     }
   }
 }

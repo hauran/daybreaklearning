@@ -47,6 +47,17 @@ a{
   max-width: 800px;
 }
 
+input, textarea {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1em;
+  width:100%;
+  border: 1px solid #ddd;
+  &.error {
+    border: 1px solid #e74c3c;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   #root .page {
     padding:20px;

@@ -14,14 +14,35 @@ module.exports = [
     description: "An online course that fuses the teachings of a leading global communications firm with customized learning interactions and innovative technology in webcam integration, video streaming and recording-analysis. The result is a learning experience that brings transformative behavioral results to self-paced, independent learners worldwide.",
     challenge: "How to best teach something as deeply-interpersonal as communications skills for individual learners online?  Can people really transform their interpersonal skills in an essentially solo experience?",
     strategy: "After taking the course and speaking to other learners, I realized the unique challenge was also a unique opportunity. Often, learners are so parlysed to speak publicly that it’s hard to really engage with other people. The online course provides a classroom like experience with compelling teachers and engaged listeners and users are actually recording themselves in front of mock-audiences. This always learners to practice in a highly-realistic simulated environment, so they can gain comfort in a safe space. The activities include self-analytical tools like vocal variety analysis, recording-flagging and other mechanisms for gaining essential feedback and insights into one’s own habits.  In Beta testing to date, learners found the course refreshingly-unique and highly compelling. It transformed the company of  Decker Communications offerings to support modern learners while also keeping to the integrity of their classroom-built practices and philosophy.",
-    icon: "../img/portfolio/decker/icon.png",
+    icon: "/img/portfolio/decker/icon.png",
     images: [
-      "../img/portfolio/decker/decker01.png",
-      "../img/portfolio/decker/decker02.png",
-      "../img/portfolio/decker/decker03.png",
-      "../img/portfolio/decker/decker04.png"
+      "/img/portfolio/decker/decker01.png",
+      "/img/portfolio/decker/decker02.png",
+      "/img/portfolio/decker/decker03.png",
+      "/img/portfolio/decker/decker04.png"
     ]
   },
+  {
+    title: "Allen Interactions Portfolio",
+    slug: "allen",
+    description: "Oversaw a considerable range of instructional design projects for a range of clients and budgets and audiences ranging from dozens to thousands",
+    fullDescription:"As a Senior Producer with Allen Interactions’ San Francisco studio, Aliza oversaw a considerable range of instructional design projects for a range of clients with budgets between $15,000 and $950,000 and audiences ranging from dozens to thousands. Projects have included gaming/instructional design, interactive audio and video creation, LMS integration and tracking. Her range of work shows her comfort working with a range of resources, requirements, audiences and metric-tracking systems.. Most of all, her experience highlights her critical ability to listen to the client needs at every step of development. Recent satisfied clients include:",
+    clients:['Benefit Cosmetics', 'LinkedIn', 'Allstate Insurance', 'American Express', 'Home Depot', 'PG&E'],
+    icon: "/img/portfolio/allen/icon.png",
+    spotlights:[
+      {
+        title:'They Are Real Eyeliner for Benefit Cosmetics',
+        description:'Benefit was about to launch their most innovative product ever and needed to educate their cosmeticians and create a buzz without leaking their product to the public! In under two months, Aliza produced an e-course that integrated video, audio and graphics into a course that taught employees about the eyeliner, its application and its important brand significance.',
+        img:"/img/portfolio/allen/benefit.png"
+      },
+      {
+        title:'American Express Simulated Small Business Owner Game',
+        description:'At the heart of American Express services are the small business owners who use their cards and services to grow their business. Aliza produced a course that helped their customer care professionals gain empathy with their audience and examine conversations for opportunities to share Amex services. The course integrated audio recordings that users flagged according to different measurements.',
+        img:"/img/portfolio/allen/amex.png"
+      }
+    ]
+  },
+
   {
     title: "Brainzy: The new learning game system from education.com",
     slug: "brainzy",
@@ -38,8 +59,8 @@ module.exports = [
     description: "When Education.com,  the leading source of online worksheets, embarked on game development, they stepped into a foreign terrain without a clear path. I helped them find their way by identifying market needs, defining a unique product vision and outlining a clear curricular game path.",
     challenge: "The competitive market for online educational content is already formidable and increasing dramatically. How can I help the company use their limited resources and time to develop a truly distinct product?",
     strategy: "When I began the project, the internal production team already had amassed considerable content and curricular material. But the emerging material lacked a clear framework and the product vision was hazy and vague.  Before launching into design, I helped the team articulate a compelling strategy and product voice that set them apart in the crowded market.  I presented this strategy with detailed product requirements that were hammered out with the team and became the foundation of the product's design.",
-    icon: "../img/portfolio/brainzy/icon.png",
-    images: ["../img/portfolio/brainzy/screenshot.png"],
+    icon: "/img/portfolio/brainzy/icon.png",
+    images: ["/img/portfolio/brainzy/screenshot.png"],
   },
   {
     title:"NationalMockElection.org",
@@ -56,10 +77,10 @@ module.exports = [
     description:"Millions of students participated in the National Student Mock Election, the country's largest civic engagement project. I produced its new interactive site, with innovative resources for students and educators.",
     challenge:"How do I translate enthusiasm and participation in the Mock Election into continued civic engagement throughout the year? Once students vote and see the election results, how do I keep them coming back to the site to learn and voice their opinion about important issues?",
     strategy:"I created a Pinterest-like space where classrooms share their photos and stories about their Mock Election, thus channeling enthusiasm from the election past into the current conversation. I also developed content for a student projects page that keeps students engaged in political thought after the election. Activities such as \"Find Jeremy a Job\" and \"No Issue Stands Alone\" inspire students to think deeply about nuanced topics and brainstorm their own solutions.",
-    icon:"../img/portfolio/nme/icon.jpg",
+    icon:"/img/portfolio/nme/icon.jpg",
     images:[
-      "../img/portfolio/nme/noIssueStandsAlone.png",
-      "../img/portfolio/nme/issues.png"
+      "/img/portfolio/nme/noIssueStandsAlone.png",
+      "/img/portfolio/nme/issues.png"
     ]
   },
   {
@@ -78,10 +99,10 @@ module.exports = [
     description:"This online reading platform needed to be repositioned for its main users. I spearheaded research with its target audience to deliver design and functionality recommendations.",
     challenge:"Pearson Foundation wasn't sure about how to invest in the site to prepare for the upcoming Read for the Record event that would bring peak traffic to the site. I realized that while WeGiveBooks.org had an amazing product to share– children's books for reading and exploring for free online – the site design and features were being driven by marketing rather than user needs. How can I show stakeholders that listening and responding to users is the best way to increase the site's popularity, traffic and long term success?",
     strategy:"I spearheaded a qualitative user study to understand the target users motivations, use patterns and current limitations. I showed stakeholders how simple improvements such as a better search function and a more intuitive reading interface would increase user engagement and retention. By timing these improvements with the high-traffic event, we attracted new users and developed a loyal base.",
-    icon:"../img/portfolio/wgb/icon.jpg",
+    icon:"/img/portfolio/wgb/icon.jpg",
     images:[
-      "../img/portfolio/wgb/logo.jpg",
-      "../img/portfolio/wgb/books.png"
+      "/img/portfolio/wgb/logo.jpg",
+      "/img/portfolio/wgb/books.png"
     ],
   },
   {
@@ -101,9 +122,9 @@ module.exports = [
     description:"Toddlers learn about their bodies and movement in this award-winning interactive Backyardigans adventure. I scripted and produced over 45 minutes of original animation intermixed with photography and video footage.",
     challenge:"Toddlers were expected to interact with the DVD by pushing buttons on LeapFrog's new Little Leaps console, but users this young can't be expected to follow verbal cues. I wanted to deliver instructions that were clear and intuitive, but didn't break out of the fantasy world of The Backyardigans.",
     strategy:"The look of the console reminded me of the dashboard of an airplane. So I embarked upon an airplane theme for the story plot, enabling an onscreen representation identical to the console in front of the child. Our animators created a reusable sequence from the viewpoint of the pilots asking \"you,\" the user, to help the plane land or takeoff by moving the joystick or pushing a button. User testing showed that these visual cues motivated toddlers to interact with the console and become active participants in the adventure.",
-    icon:"../img/portfolio/llid/icon.png",
+    icon:"/img/portfolio/llid/icon.png",
     images:[
-      "../img/portfolio/llid/dvd.png"
+      "/img/portfolio/llid/dvd.png"
     ],
     videos:[
       '<iframe src="http://player.vimeo.com/video/59928243?title=0&amp;byline=0&amp;portrait=0" width="480" height="272" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
@@ -127,10 +148,10 @@ module.exports = [
     description:"LeapFrog's interactive books have revolutionized early reading and literacy. Each book's content is brought to life with dialogue, songs, games and personalized learning tracks. I designed the content and gameplay while managing the production of nine notable books, many of which received educational awards and were bestsellers in their category.",
     challenge:"My over-arching challenge, through all book titles, was to use technology in a way that enhanced children's imaginations rather than restricted them to a scripted experience.",
     strategy:"I went beyond the user sessions required by LeapFrog and met with young users as much as schedule and budget would allow. In testing, I never told kids what to do, but rather learned from all the unexpected ways they would interact with the prototypes. As a result, my books were known for their engaging content and intuitive play patterns. Awards include the Parents' Choice Award, KTVU's Best of the Rest Education Toy Award and the National Parenting Center's Seal of Approval.",
-    icon:"../img/portfolio/leapfrog/icon.png",
+    icon:"/img/portfolio/leapfrog/icon.png",
     images:[
-      "../img/portfolio/leapfrog/book.png",
-      "../img/portfolio/leapfrog/moo.png"
+      "/img/portfolio/leapfrog/book.png",
+      "/img/portfolio/leapfrog/moo.png"
     ]
   },
   {
@@ -151,9 +172,9 @@ module.exports = [
     description:"This English/Spanish learning radio teaches toddlers over 50 first words through interactive prompts, riddles, songs and music. I designed and managed the production of this best-selling toy, which has been translated into three languages for a global audience.",
     challenge:"There was an immediate need to boost the LeapFrog 2009 toy line despite a dwindling budget and timeline. I was asked to revamp an existing product with bilingual content to teach first words to toddlers. To succeed, we needed a product that felt like a truly new experience rather than a rehash of old material.",
     strategy:"I spoke with education experts on how to foster bilingual word development and reviewed the current consumer products teaching first words. I learned that words are best taught in their environmental context and reinforced through multisensory exploration. Since no product on the market was doing this, I designed the radio with environmental pages, catchy songs, clickable buttons and engaging lights that captured toddlers' eyes, ears and hands. The best part? This redesign was really a re-skin of a previously made LeapFrog toy, keeping costs low.",
-    icon:"../img/portfolio/learnGroove/icon.png",
+    icon:"/img/portfolio/learnGroove/icon.png",
     images:[
-      "../img/portfolio/learnGroove/radio.png"
+      "/img/portfolio/learnGroove/radio.png"
     ]
   }
 ]
