@@ -26,7 +26,7 @@ module.exports = [
     title: "Allen Interactions Portfolio",
     slug: "allen",
     description: "Oversaw a considerable range of instructional design projects for a range of clients and budgets and audiences ranging from dozens to thousands",
-    fullDescription:"As a Senior Producer with Allen Interactions’ San Francisco studio, Aliza oversaw a considerable range of instructional design projects for a range of clients with budgets between $15,000 and $950,000 and audiences ranging from dozens to thousands. Projects have included gaming/instructional design, interactive audio and video creation, LMS integration and tracking. Her range of work shows her comfort working with a range of resources, requirements, audiences and metric-tracking systems.. Most of all, her experience highlights her critical ability to listen to the client needs at every step of development. Recent satisfied clients include:",
+    fullDescription: "As a Senior Producer with Allen Interactions’ San Francisco studio, Aliza oversaw cutting-edge instructional design projects for high profile clients with budgets between $15,000 and $950,000 and audiences ranging from dozens to tens of thousands. Projects have included gaming/instructional design, interactive audio and video creation, LMS integration and tracking. Her profile demonstrates her capacity to work with a range of resources, requirements, audiences and metric-tracking systems. Most of all, her experience highlights her critical ability to listen to the client needs at every step of development. Satisfied clients include:",
     clients:['Benefit Cosmetics', 'LinkedIn', 'Allstate Insurance', 'American Express', 'Home Depot', 'PG&E'],
     icon: "/img/portfolio/allen/icon.png",
     spotlights:[
