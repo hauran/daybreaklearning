@@ -3,7 +3,7 @@ import Nav from '../components/nav'
 import _ from 'lodash'
 import classNames from 'classnames'
 import '../less/portolio.less'
-import { Link, browserHistory } from 'react-router'
+import { Link } from 'react-router'
 
 const portfolio = require('../data/portfolios')
 
@@ -16,9 +16,6 @@ class Details extends React.Component {
   }
 
   componentDidMount(){
-    if(!window.localStorage.getItem('portfolio')) {
-      browserHistory.push('/portfolio')
-    }
     window.scrollTo(0,0)
   }
 

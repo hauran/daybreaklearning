@@ -1,7 +1,7 @@
 import React from 'react'
 import _ from 'lodash'
-import SadIcon from 'react-icons/io/sad-outline'
-import CheckIcon from 'react-icons/io/checkmark'
+import SadIcon from 'react-icons/lib/io/sad-outline'
+import CheckIcon from 'react-icons/lib/io/checkmark'
 import Nav from '../components/nav'
 import { browserHistory } from 'react-router'
 

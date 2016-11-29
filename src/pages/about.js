@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeIcon from 'react-icons/io/ribbon-b'
+import ResumeIcon from 'react-icons/lib/io/ribbon-b'
 
 import Nav from '../components/nav'
 import '../less/about.less'

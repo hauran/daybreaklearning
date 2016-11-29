@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import EmailIcon from 'react-icons/io/ios-email-outline'
+import EmailIcon from 'react-icons/lib/io/ios-email-outline'
 import 'whatwg-fetch'
 
 import Nav from '../components/nav'
