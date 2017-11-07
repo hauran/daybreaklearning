@@ -1,0 +1,107 @@
+.dropShadow {
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+.displayFlex {
+  display: flex;
+  display: -webkit-flex;
+}
+.alignCenter {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.justifyCenter {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex1 {
+  flex: 1;
+  -webkit-flex: 1;
+}
+#details .description {
+  margin-top: 15px;
+  line-height: 1.5em;
+}
+#details .well,
+#details .challenge,
+#details .approach {
+  margin-top: 20px;
+}
+#details .challenge div,
+#details .approach div {
+  margin-top: 10px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+#details ul {
+  margin-top: 10px;
+  font-size: 0.9em;
+  list-style: disc;
+  margin-left: 20px;
+}
+#details ul li {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+#details ul.clients {
+  margin-left: 40px;
+}
+#details .spotlights {
+  margin-top: 2em;
+}
+#details .spotlights .spotlight {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 3em;
+  padding-top: 1em;
+}
+#details .spotlights .spotlight h5 {
+  color: #333333;
+  margin-bottom: 10px;
+}
+#details .spotlights .spotlight img {
+  margin-top: 1em;
+}
+#details hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+#details .back {
+  font-size: 0.8em;
+}
+@media only screen and (max-width: 767px) {
+  #details .images img,
+  #details .spotlight img {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 350px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #details .images,
+  #details .spotlight {
+    text-align: center;
+  }
+  #details .images img,
+  #details .spotlight img {
+    margin: 0 10px;
+    width: 100%;
+  }
+  #details .images img.half,
+  #details .spotlight img.half {
+    width: calc(100% * (1/2) - 20px);
+  }
+  #details .spotlight {
+    text-align: initial;
+  }
+}

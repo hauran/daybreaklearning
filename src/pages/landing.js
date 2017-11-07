@@ -2,7 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 import Nav from '../components/nav'
 
-import '../less/landing.less'
+import '../css/landing.css'
 
 
 class Landing extends React.Component {

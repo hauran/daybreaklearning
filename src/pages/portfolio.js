@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../components/nav'
 import _ from 'lodash'
 import classNames from 'classnames'
-import '../less/portolio.less'
+import '../css/portolio.css'
 import { Link } from 'react-router'
 
 const portfolio = require('../data/portfolios')

@@ -4,7 +4,7 @@ import ListItem from '../components/listItem'
 
 const portfolio = require('../data/portfolios')
 
-import '../less/portfolioList.less'
+import '../css/portfolioList.css'
 
 class PortfolioList extends React.Component {
   constructor(props) {

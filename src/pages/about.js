@@ -2,7 +2,7 @@ import React from 'react'
 import ResumeIcon from 'react-icons/lib/io/ribbon-b'
 
 import Nav from '../components/nav'
-import '../less/about.less'
+import '../css/about.css'
 
 
 const About = () => {

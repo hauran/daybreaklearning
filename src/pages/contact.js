@@ -4,7 +4,7 @@ import EmailIcon from 'react-icons/lib/io/ios-email-outline'
 import 'whatwg-fetch'
 
 import Nav from '../components/nav'
-import '../less/contact.less'
+import '../css/contact.css'
 
 const lambda_email = 'https://bx29ntrjge.execute-api.us-east-1.amazonaws.com/prod/sendEmail'
 

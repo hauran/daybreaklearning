@@ -4,7 +4,7 @@ import _ from 'lodash'
 import { Link } from 'react-router'
 
 
-import '../less/nav.less'
+import '../css/nav.css'
 
 let links = [
   {

@@ -1,0 +1,67 @@
+.dropShadow {
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+.displayFlex {
+  display: flex;
+  display: -webkit-flex;
+}
+.alignCenter {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.justifyCenter {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex1 {
+  flex: 1;
+  -webkit-flex: 1;
+}
+#about {
+  display: flex;
+  display: -webkit-flex;
+}
+#about img {
+  width: 100%;
+  max-width: 400px;
+}
+#about pre {
+  display: block;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #fff;
+  word-break: normal;
+  white-space: inherit;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+  #about {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  #about .bio {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #about {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+  }
+  #about .bio {
+    margin-left: 20px;
+  }
+}

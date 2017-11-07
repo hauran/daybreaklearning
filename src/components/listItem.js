@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-import '../less/nav.less'
+import '../css/nav.css'
 
 const ListItem = (i) => {
   const iconStyle={

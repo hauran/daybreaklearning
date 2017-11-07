@@ -9,7 +9,7 @@ import PortfolioOpen from './pages/portfolioOpen'
 import Portfolio from './pages/portfolio'
 import Contact from './pages/contact'
 
-import './less/app.less'
+import './css/app.css'
 
 class App extends Component {
   render() {

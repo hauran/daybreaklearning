@@ -1,0 +1,103 @@
+.dropShadow {
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.35);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+.displayFlex {
+  display: flex;
+  display: -webkit-flex;
+}
+.alignCenter {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.justifyCenter {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex1 {
+  flex: 1;
+  -webkit-flex: 1;
+}
+#portfolioList #noAccess {
+  color: #333333;
+}
+#portfolioList #noAccess p {
+  padding: 1em;
+  color: #333333;
+}
+#portfolioList #noAccess input {
+  width: 100%;
+}
+#portfolioList ul li {
+  border: 2px solid #DDD;
+  border-radius: 10px;
+  margin: 10px;
+}
+#portfolioList ul li .icon {
+  height: 180px;
+  width: 100%;
+  border-bottom: 2px solid #DDD;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#portfolioList ul li .description {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8em;
+  overflow: hidden;
+  color: #666;
+}
+#portfolioList ul li h4 {
+  color: initial;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  #portfolioList ul li {
+    margin: initial;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #portfolioList ul {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  #portfolioList ul li {
+    width: calc(100% * (1/2) - 20px);
+  }
+  #portfolioList ul li .description {
+    height: 190px;
+  }
+}
