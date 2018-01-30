@@ -46,6 +46,8 @@
   white-space: inherit;
   font-family: inherit;
   margin-bottom: 20px;
+  line-height: 1.5em;
+  margin-top:10px;
 }
 @media only screen and (max-width: 767px) {
   #about {

@@ -23,6 +23,9 @@ class PortfolioList extends React.Component {
       <div className='page'>
         <Nav active='Portfolio' logo={true}></Nav>
         <div id='portfolioList'>
+          <div className='recent'>
+            More recent portfolio samples from January 2017 are available upon request. Please email me, <a href='mailto:aberaliza@gmail.com' target='_blank'>aberaliza@gmail.com</a>,  to set up a walkthrough.
+          </div>
           <ul>
           {
             portfolio.map((p,i) => {

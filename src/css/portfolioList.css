@@ -27,6 +27,11 @@
   flex: 1;
   -webkit-flex: 1;
 }
+
+#portfolioList .recent{
+  color: #666666;
+}
+
 #portfolioList #noAccess {
   color: #333333;
 }
@@ -79,12 +84,21 @@
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 767px) {
+  #portfolioList .recent{
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
   #portfolioList ul li {
     margin: initial;
     margin-bottom: 25px;
   }
 }
 @media only screen and (min-width: 768px) {
+  #portfolioList .recent{
+    padding: 20px;
+  }
+
   #portfolioList ul {
     display: flex;
     display: -webkit-flex;

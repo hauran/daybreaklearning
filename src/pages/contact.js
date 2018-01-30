@@ -65,29 +65,11 @@ class Contact extends React.Component {
   }
 
   render(){
-    let alert = classNames('alert', {show:this.state.sent})
-    let email = classNames({error:this.state.errors.email})
-    let name = classNames({error:this.state.errors.name})
-    let text = classNames({error:this.state.errors.text})
-    let button = classNames({hidebutton:this.state.hidebutton})
     return (
       <div className='page' id='contact'>
         <Nav active='Contact' logo={true}></Nav>
-        <div className='well'>
-          <h4><EmailIcon size={35} className='icon'/><a href='mailto:aliza@daybreaklearningco.com' target='_blank'>aliza@daybreaklearningco.com</a></h4>
-      		<h5>- or  -</h5>
-      		<form>
-      			<h3>Drop me an email</h3>
-  			  	<input type='text' id='name' name='name' className={name} placeholder='Name' onChange={(e) => {this.handleChange(e)}}  ></input>
-  			  	<input type='email' id='email' name='email' className={email} placeholder='Email' onChange={(e) => {this.handleChange(e)}}></input>
-      			<textarea rows='7' id='text' name='text' className={text} onChange={(e) => {this.handleChange(e)}}></textarea>
-      			<button className={button} onClick={(e) => {this.send(e)}}><i className='icon-heart'></i> Send</button>
-    				    <div className={alert}>
-    				  Thanks for the email!
-    				</div>
-      		</form>
-      		<br/>
-
+        <div className='well flex'>
+          <h4><EmailIcon size={35} className='icon'/><a href='mailto:aberaliza@gmail.com' target='_blank'>aberaliza@gmail.com</a></h4>
       	</div>
       </div>
     )
