@@ -15,6 +15,7 @@
     "react-router": "2.8.1",
     "whatwg-fetch": "1.0.0"
   },
+  "engines" : { "node" : "6.9.5" },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
