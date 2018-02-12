@@ -11,16 +11,15 @@
     "react": "15.3.2",
     "react-dom": "15.3.2",
     "react-icons": "2.2.1",
-    "react-redux": "4.4.5",
     "react-router": "2.8.1",
     "whatwg-fetch": "1.0.0"
   },
-  "engines" : { "node" : "6.9.5" },
+  "engines": {
+    "node": "8.9.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "push": "react-scripts build; s3-cli sync ~/gitrepo/daybreaklearning/build/ s3://daybreaklearningcompany.com/;"
+    "test": "react-scripts test --env=jsdom"
   }
 }
