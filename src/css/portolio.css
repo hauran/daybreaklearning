@@ -63,6 +63,9 @@
   margin-top: 3em;
   padding-top: 1em;
 }
+.spotlight .spotlightDesc {
+  line-height: 1.4em;
+}
 #details .spotlights .spotlight h5 {
   color: #333333;
   margin-bottom: 10px;

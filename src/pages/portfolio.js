@@ -115,7 +115,7 @@ class Details extends React.Component {
                   return (
                     <div className='spotlight'>
                       <h5>Portfolio Spotlight: {s.title}</h5>
-                      {s.description}
+                      <div className='spotlightDesc'>{s.description}</div>
                       <img src={s.img} key={i} alt='spotlight' ></img>
                     </div>
                   )
