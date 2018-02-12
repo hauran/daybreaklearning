@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, useRouterHistory } from 'react-router'
+import { createHashHistory } from 'history'
 
 import Landing from './pages/landing'
 import About from './pages/about'
@@ -11,10 +12,12 @@ import Contact from './pages/contact'
 
 import './css/app.css'
 
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
+
 class App extends Component {
   render() {
     return (
-      <Router history={browserHistory}>
+      <Router history={appHistory}>
         <Route path="/" component={Landing}/>
         <Route path="about" component={About}/>
         <Route path="friend" component={PortfolioOpen}/>
