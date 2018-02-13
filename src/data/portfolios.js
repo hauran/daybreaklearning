@@ -8,7 +8,7 @@ module.exports = [
       tasks: [
         "Needs Analysis",
         "Defining Learning Objectives",
-        "Subject Matter Expert And Learner Interviews",
+        "Subject Matter Expert and Learner Interviews",
         "Instructional Design and Content Development for Blended Learning programs",
         "Client and Stakeholder Relationship Lead",
         "Project Plan, Schedule and Budget Creation and management",
