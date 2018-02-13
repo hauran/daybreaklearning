@@ -12,12 +12,6 @@ class PortfolioList extends React.Component {
     this.state = {}
   }
 
-  componentDidMount(){
-    setTimeout(() => {
-      window.scrollTo(0,0)
-    },1)
-  }
-
   render(){
     return (
       <div className='page'>

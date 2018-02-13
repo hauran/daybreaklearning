@@ -18,21 +18,18 @@ class Landing extends React.Component {
 
   componentDidMount(){
     setTimeout(() => {
-      this.setState({overlay:true})
-    },750)
-    setTimeout(() => {
       this.setState({nav:true})
-    },1000)
+    },10)
     setTimeout(() => {
       this.setState({content:true})
-    },1000)
+    },10)
     setTimeout(() => {
       this.setState({logo:true})
-    },1250)
+    },0)
   }
 
   render() {
-    let overlay = classNames('overlay', {show:this.state.overlay})
+    let overlay = classNames('overlay', {show:true})
     let nav = classNames('nav', {show:this.state.nav})
     let content = classNames('content', {show:this.state.content})
     return (
