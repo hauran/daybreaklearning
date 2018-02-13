@@ -9,29 +9,20 @@ class Landing extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      overlay:false,
-      nav:false,
-      content:false,
       logo:false
     }
   }
 
   componentDidMount(){
     setTimeout(() => {
-      this.setState({nav:true})
-    },10)
-    setTimeout(() => {
-      this.setState({content:true})
-    },10)
-    setTimeout(() => {
       this.setState({logo:true})
     },0)
   }
 
   render() {
-    let overlay = classNames('overlay', {show:true})
-    let nav = classNames('nav', {show:this.state.nav})
-    let content = classNames('content', {show:this.state.content})
+    let overlay = classNames('overlay', 'show')
+    let nav = classNames('nav', 'show')
+    let content = classNames('content', 'show')
     return (
       <div id='main' className='page'>
         <div className='background'></div>
