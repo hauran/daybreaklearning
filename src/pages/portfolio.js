@@ -114,9 +114,15 @@ class Details extends React.Component {
                 i.spotlights.map((s,i) => {
                   return (
                     <div className='spotlight'>
-                      <h5>Portfolio Spotlight: {s.title}</h5>
+                      <h4>Portfolio Spotlight: {s.title}</h4>
                       <div className='spotlightDesc'>{s.description}</div>
-                      <img src={s.img} key={i} alt='spotlight' ></img>
+                      {Array.isArray(s.img) ? 
+                        s.img.map(  (img,i) => {
+                          return <img src={img} key={i} alt='spotlight' ></img>
+                        })
+                      :
+                        <img src={s.img} key={i} alt='spotlight' ></img>
+                      }
                     </div>
                   )
                 })

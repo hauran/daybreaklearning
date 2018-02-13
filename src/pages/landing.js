@@ -22,13 +22,13 @@ class Landing extends React.Component {
     },750)
     setTimeout(() => {
       this.setState({nav:true})
-    },1500)
+    },1000)
     setTimeout(() => {
       this.setState({content:true})
-    },2000)
+    },1000)
     setTimeout(() => {
       this.setState({logo:true})
-    },2500)
+    },1250)
   }
 
   render() {

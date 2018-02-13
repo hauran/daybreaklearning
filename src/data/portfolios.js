@@ -22,17 +22,36 @@ module.exports = [
       {
         title:'Arts Portfolio Page',
         description:'McKinsey came to Socratic Arts to help with the challenge of failing mentorships at their firm. After performing the  needs analysis, I designed and led development of a video course where learners have simulated coaching conversations with direct reports and practiced key coaching interactions. The success of the program  helped  Socratic Arts attract new premier clients now using the same foundational simulation exercise and analysis techniques.',
-        img:"/img/portfolio/socratic/spotlight1.png"
+        img:["/img/portfolio/socratic/spotlight1_1.png","/img/portfolio/socratic/spotlight1_2.png","/img/portfolio/socratic/spotlight1_3.png"]
       },
       {
         title:'Critical Conversations in Professional Development',
         description:'McKinsey wanted to change the dynamic with their Professional Development group so they were elevated from being more than staffers, but as thought partners leading the firm.  I developed an in-person facilitated role-playing module for learners to act out diverse roles in navigating mock critical conversations. In early pilots, the program has already broken records for engagement and efficacy for learning programs in this division.',
-        img:"/img/portfolio/socratic/spotlight2.png"
+        img:["/img/portfolio/socratic/spotlight2_1.png","/img/portfolio/socratic/spotlight2_2.png","/img/portfolio/socratic/spotlight2_3.png"]
       }
     ]
   },
 
-
+  {
+    title: "Allen Interactions Portfolio",
+    slug: "allen",
+    description: "Oversaw cutting-edge instructional design projects for high profile clients with audiences ranging from dozens to tens of thousands.",
+    fullDescription: "As a Senior Producer with Allen Interactions' San Francisco studio, I oversaw cutting-edge instructional design projects for high profile clients with budgets between $15,000 and $950,000 and audiences ranging from dozens to tens of thousands. Projects have included gaming/instructional design, interactive audio and video creation and LMS integration and tracking. My profile demonstrates my capacity to work with a range of resources, requirements, audiences and learning management systems. Satisfied clients include:",
+    clients:['Benefit Cosmetics', 'LinkedIn', 'Allstate Insurance', 'American Express', 'Home Depot', 'PG&E'],
+    icon: "/img/portfolio/allen/icon.png",
+    spotlights:[
+      {
+        title:'Benefit They’re Real Push-up Liner',
+        description:'Benefit was about to launch their most innovative product ever and needed to educate cosmeticians and create a buzz without leaking their product to the public. In under two months, I produced an e-course that integrated video, audio and graphics and taught employees about the eyeliner, its application and important brand significance.',
+        img:"/img/portfolio/allen/benefit.png"
+      },
+      {
+        title:'American Express Simulated Small Business Owner Game',
+        description:'At the heart of American Express services are the small business owners who use their cards and services to grow their business. I produced a course that helped their customer care professionals gain empathy with their audience and examine conversations for opportunities to share Amex services. The course integrated audio recordings that users flagged according to different measurements.',
+        img:"/img/portfolio/allen/amex.png"
+      }
+    ]
+  },
 
   {
     title: "Premier Business Communication Program",
@@ -57,26 +76,7 @@ module.exports = [
       "/img/portfolio/decker/decker04.png"
     ]
   },
-  {
-    title: "Allen Interactions Portfolio",
-    slug: "allen",
-    description: "Oversaw cutting-edge instructional design projects for high profile clients with audiences ranging from dozens to tens of thousands.",
-    fullDescription: "As a Senior Producer with Allen Interactions' San Francisco studio, I oversaw cutting-edge instructional design projects for high profile clients with budgets between $15,000 and $950,000 and audiences ranging from dozens to tens of thousands. Projects have included gaming/instructional design, interactive audio and video creation and LMS integration and tracking. My profile demonstrates my capacity to work with a range of resources, requirements, audiences and learning management systems. Satisfied clients include:",
-    clients:['Benefit Cosmetics', 'LinkedIn', 'Allstate Insurance', 'American Express', 'Home Depot', 'PG&E'],
-    icon: "/img/portfolio/allen/icon.png",
-    spotlights:[
-      {
-        title:'Benefit They’re Real Push-up Liner',
-        description:'Benefit was about to launch their most innovative product ever and needed to educate cosmeticians and create a buzz without leaking their product to the public. In under two months, I produced an e-course that integrated video, audio and graphics and taught employees about the eyeliner, its application and important brand significance.',
-        img:"/img/portfolio/allen/benefit.png"
-      },
-      {
-        title:'American Express Simulated Small Business Owner Game',
-        description:'At the heart of American Express services are the small business owners who use their cards and services to grow their business. I produced a course that helped their customer care professionals gain empathy with their audience and examine conversations for opportunities to share Amex services. The course integrated audio recordings that users flagged according to different measurements.',
-        img:"/img/portfolio/allen/amex.png"
-      }
-    ]
-  },
+ 
 
   {
     title: "Brainzy: The new learning game system from education.com",

@@ -63,6 +63,11 @@
   margin-top: 3em;
   padding-top: 1em;
 }
+#details .spotlights .spotlight h4 {
+  margin-bottom:20px;
+  padding-top: 20px;
+}
+
 .spotlight .spotlightDesc {
   line-height: 1.4em;
 }
